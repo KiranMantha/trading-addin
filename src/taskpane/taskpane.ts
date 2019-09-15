@@ -8,6 +8,7 @@ Office.onReady(info => {
     document.getElementById("sideload-msg").style.display = "none";
     document.getElementById("app-body").style.display = "flex";
     document.getElementById("run").onclick = run;
+    document.getElementById("openDialog").onclick = openDialog;
   }
 });
 
@@ -28,6 +29,14 @@ export async function run() {
       await context.sync();
       console.log(`The range address was ${range.address}.`);
     });
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+export async function openDialog() {
+  try {
+    await Office.context.ui.displayDialogAsync('https://localhost:3000/sample-dialog/dialog.html',  { height: 20, width: 30, displayInIframe: true });
   } catch (error) {
     console.error(error);
   }

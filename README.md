@@ -29,6 +29,8 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 
 [Example site](https://docs.microsoft.com/en-us/office/dev/add-ins/design/add-in-commands)
 
+In case of any error when running add-in check [here](https://docs.microsoft.com/en-us/office/troubleshoot/error-messages/cannot-open-add-in-from-localhost)
+
 ## Copyright
 
 Copyright (c) 2019 Microsoft Corporation. All rights reserved.
