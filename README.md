@@ -27,6 +27,8 @@ Questions about Microsoft Office 365 development in general should be posted to 
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
+[Example site](https://docs.microsoft.com/en-us/office/dev/add-ins/design/add-in-commands)
+
 ## Copyright
 
 Copyright (c) 2019 Microsoft Corporation. All rights reserved.
